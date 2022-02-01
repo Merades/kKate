@@ -10,7 +10,7 @@
 
 body{
     background-image: url(../img/photo_2022-01-29_15-01-38.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 header{
@@ -19,10 +19,30 @@ header{
 }
 
 .headEr{
+    position: relative;
     display: flex;
     justify-content: space-between;
     height: 200px;
 }
+.flagNav li{
+    display: inline-block;
+}
+.flagNav ul{
+    display: flex;
+}
+
+.flagNav{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: -92px;
+    top: 10px;
+}
+.translate img{
+    width: 40px;
+    height: 30px;
+}
+
 .logo h1{
     margin: 30px 0 0 0;
     text-align: center;
@@ -36,6 +56,8 @@ header{
     text-align: center;
 }
 .logo{
+    padding-right: 10px;
+    border-right: 1px solid rgb(205, 133, 63, 0.5);
     width: 300px;
     height: 200px;
 }
@@ -69,6 +91,11 @@ header{
     color: rgb(205, 133, 63);
     border: 1px solid rgb(205, 133, 63);
     background-color: unset;
+}
+
+main{
+    padding-bottom: 80px;
+    background: linear-gradient(0deg, rgba(205, 133, 63) 10%, rgba(252, 252, 252, 0)80%);
 }
 
 .global{
@@ -115,6 +142,20 @@ header{
     top: 180px;
     width: 140px;
     height: 140px;
+}
+
+footer{
+    background-color: rgb(205, 133, 63);
+}
+
+.backg4{
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.backg4 h2{
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 /* .headMenu{
@@ -230,8 +271,8 @@ ul{
     width: 700px;
     height: 330px;
     border-radius: 10px;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(24px);
+    box-shadow: 0px 2px 40px rgba(255, 255, 255, 0.25);
+    background-color: rgba(252, 252, 252, 0.4);
 }
 .carousel-item p{
     margin-bottom: 0;
