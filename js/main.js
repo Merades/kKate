@@ -12,12 +12,36 @@
 
 var arrLang ={
     'en':{
-        'about': 'about company',
-        'buyers': 'buyers'
+        'about': 'About company',
+        'buyers': 'Buyers',
+        'corporative': 'To corporative clients',
+        'news': 'News',
+        'wine':'Wine school',
+        'ps': 'Wine shop. We work with soul and a pleasant grape flavor!',
+        'Private': 'Private clients',
+        'private1': 'You will find the largest selection of spirits and the best wines in the world.',
+        'corporate': 'For corporate clients',
+        'Professional': 'Professional consultation and delivery to your office, bank transfer.',
+        'Gift': 'Gift certificates',
+        'beautiful': 'Do you want to make a beautiful and expensive gift? Give a selection of the best wines in the world.',
+        'Discount': 'Discount program',
+        'Favorable': 'Favorable offers for regular customers and accumulation of bonuses.'
     },
     'ru':{
         'about': 'О компании',
-        'buyers': 'пкупателям'
+        'buyers': 'Покупателям',
+        'corporative': 'Корпоративным клиентам',
+        'news': 'Новости',
+        'wine':'Винная школа',
+        'ps': 'Винная лавка. Рабтаем с душой и приятным винградным привкусом!',
+        'Private': 'Частным клиаентам',
+        'private1': 'Вы найдете самый большой выбор спиртных нопитков, лучшие вина мира',
+        'corporate': 'Корпоративным клиаентам',
+        'Professional': 'Профессиональное консультирование и доставка к вам в офис, безналичный расчет.',
+        'Gift': 'Подарочные сертификаты',
+        'beautiful': 'Хотите сделать красивый и дорогой подарок? Подарите выбор самых лучших вин мира.',
+        'Discount': 'Дисконтная программа',
+        'Favorable': 'Выгодные предложения для постоянных покупателей и накпления бонусов.'
     }
 }
 
