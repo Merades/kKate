@@ -1,5 +1,22 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+.mainLogo{
+    position: relative;
+    height: 400px;
+    background-image: url(../img/set-vector-splashes-red-wine-1452563.jpg);
+}
+
+.mainLogo div{
+    border-radius: 10px;
+    top: 78px;
+    left: 60px;
+    position: absolute;
+    padding: 40px;
+    backdrop-filter: blur(20px);
+    width: 400px;
+    height: 260px;
+}
+.mainLogo h2{
+    margin-bottom: 30px;
+}
+.mainLogo p{
+    font-size: 18px;
 }
