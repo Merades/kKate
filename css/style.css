@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat; */
 }
 header{
-    background: linear-gradient(45deg, rgb(69, 5, 5) 20%, rgb(182, 82, 82) 75%);
+    background: linear-gradient(45deg, rgb(69, 5, 5) 10%, rgb(182, 82, 82) 90%);
     border-bottom: 1px solid rgb(205, 133, 63);
     backdrop-filter: blur(100px);
 }
@@ -153,7 +153,7 @@ main{
     transition: all 0.5s;
 }
 .slides img {
-    width: 100vw;
+    width: 1300px;
     height: 500px;
     float: left;
 }
@@ -162,11 +162,11 @@ main{
 }
   
 #btn2:checked~.slider-inner .slides {
-    transform: translate(-1260px);
+    transform: translate(-1300px);
 }
   
 #btn3:checked~.slider-inner .slides {
-    transform: translate(-2520px);
+    transform: translate(-2600px);
 }
   
 
@@ -340,7 +340,9 @@ ul{
     display: block;
 }
 
-
+.backFot{
+    background-image: url(../img/абстрактное-водяное-пятно-красного-вина-изолированное-на-белом-фоне-165086055.jpg);
+}
 
 .carousel{
     margin: auto;
